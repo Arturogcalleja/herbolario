@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>Environmental Theme</name>
+	<creationDate>28/05/11</creationDate>
+	<author>Lonex.com</author>
+	<authorEmail>sales@lonex.com</authorEmail>
+	<authorUrl>http://www.lonex.com</authorUrl>
+	<copyright>Lonex</copyright>
+	<license>This template is designed by Lonex.com and can be used for free, as long as you keep and do not modify our 3 links.</license>
+	<version>1.6.0</version>
+	<description>Environmental Theme template by Lonex</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+	</files>
+		
+	<positions>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-14</position>
+		<position>position-15</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="colorVariation" type="list" default="green" label="Color Variation" description="Color variation to use" filter="word">
+					<option value="green">Green</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>Relaxation25</name>
+	<version>1.0.0</version>
+	<creationDate>18/01/11</creationDate>
+	<author>Lonex.com</author>
+	<authorEmail>sales@lonex.com</authorEmail>
+	<authorUrl>http://www.lonex.com</authorUrl>
+	<copyright>Lonex</copyright>
+	<license>This template is designed by Lonex.com and can be used for free, as long as you keep and do not modify our 3 links.</license>
+	<description>Relaxation template by Lonex</description>
+
+	<files>
+              <folder>css</folder>
+               <folder>images</folder>
+              <folder>html</folder>
+		<filename>index.html</filename>
+		<filename>component.php</filename>
+		<filename>functions.php</filename>
+		<filename>index.php</filename>
+	<!--	<filename>styleloader.php</filename>-->
+		<filename>utils.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+                <filename>error.php</filename>
+
+</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<config>
+		<field name="colorVariation" type="list" default="green" label="Color Variation" description="Color variation to use">
+			<option value="green">Green</option>
+		</field>
+	</config>
+</extension>
+
